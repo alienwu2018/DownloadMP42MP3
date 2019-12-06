@@ -2,6 +2,26 @@
 from moviepy.editor import *
 import os
 
+language = int(input('Choose your language (Chinese: 0, English: 1): '))
+
+translation = [
+    {
+        #Chinese
+        "error":"文件已经存在",
+        "choice":"是否转换成mp3格式(Y/N):",
+        "complete":"视频下载完成",
+        "conversion":"开始转换"
+    },
+    {
+        "error": "This file already exists",
+        "choice": "Convert to mp3 format(Y/N)",
+        'complete': "Video download completed",
+        "conversion": "Start conversion"
+    }
+]
+
+translation[language]
+
 if __name__ == '__main__':
     try:
         os.mkdir("./downloadFile")
