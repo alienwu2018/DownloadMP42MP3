@@ -23,7 +23,7 @@ jsonschema-specifications==2025.9.1
 mcp==1.26.0
 moviepy==2.2.1
 numpy==2.4.2
-pillow==11.3.0
+pillow==12.1.1
 proglog==0.1.12
 prompt_toolkit==3.0.52
 pycparser==3.0
