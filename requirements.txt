@@ -39,7 +39,7 @@ pywin32==311
 referencing==0.37.0
 rpds-py==0.30.0
 sse-starlette==3.2.0
-starlette==0.52.1
+starlette==1.0.1
 tqdm==4.67.3
 typing-inspection==0.4.2
 typing_extensions==4.15.0
